@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="light-theme">
+    <nav>
+      <ol>
+        <li class="list-search-bar" id="search1">
+          <button
+            onclick="extend()"
+            class="span-search-light"
+            style="height: 40px; width: 48px; border: none"
+          >
+            <img style="height: 40px; width: 48px" src="logo5.jpg" alt="" />
+          </button>
+        </li>
+        <li class="list_nav" id="logo1">
+          <img style="height: 38px" src="logo.jpg" alt="" />
+        </li>
+        <li class="list_nav" id="logo2">YouTube</li>
+        <li class="list_nav">
+          <div id="search_div5" class="search_div-light">
+            <span class="list-search-bar" id="search2"
+              ><input
+                class="search"
+                type="text"
+                name="data"
+                value="search" /></span
+            ><span class="list-search-light" id="search3">search</span
+            ><button class="list-search-bar-light" id="search4">
+              <img src="logo4.jpg" alt="" />
+            </button>
+          </div>
+        </li>
+        <li class="list-search-bar-light" id="search5">
+          <img
+            style="margin-right: 350px; margin: 6px"
+            src="logo6.jpg"
+            alt=""
+          />
+        </li>
+        <li class="list_nav" id="logo3">
+          <button type="button" class="button_nav_light">
+            <img src="logo2.jpg" alt="" />
+          </button>
+        </li>
+        <li class="list_nav" id="logo4">
+          <button type="button" class="button_nav_light">
+            <img style="height: 38px" src="logo3.jpg" alt="" />
+          </button>
+        </li>
+        <li class="list_nav" id="logo5">
+          <button
+            type="button"
+            class="button_nav_light"
+            onclick=" change_theme(),change_icon() "
+          >
+            <img style="height: 38px" src="theme-mode.jpg" alt="" />
+          </button>
+        </li>
+      </ol>
+    </nav>
+    <div id="main-penal">
+      <div class="extend-div" id="extend-div5"></div>
+
+      <div class="account-main" id="account-main5" >
+        <div class="Emailid" style="display: flex; flex-direction: row; gap: 31px;  margin-bottom:10px ;">
+            <span class= "Emailid-span" style="color:blue; font-weight:700;">Email Id</span> 
+            <input type="email" name="user" class= "Emailid-input" style="border:2px solid blue; border-radius:9%"></div>
+        <div class="submit">
+            <button type="submit" class="submit-button" style="background:blue; border:2px solid black; color: white; cursor: pointer; padding:2px; margin-left:125px;">Sign In</button> 
+        </div>
+        <div class="send"></div>
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="Accountf.js"></script>
+  </body>
+</html>
