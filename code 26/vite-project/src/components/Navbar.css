@@ -1,0 +1,11 @@
+.nav-div{
+    margin: 15px;
+}
+.nav-div ol{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}

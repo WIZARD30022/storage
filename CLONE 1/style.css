@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div.main {
+  background-image: url("assets/images/netbackground.jpg");
+  height: 80vh;
+  width: auto;
+}
+div.main div.box1{
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  border: 1px solid black;
+  background-color: black;
+}
+div.main div span img{
+  width: 50px;
+}
+.button{
+  color: azure;
+  background-color: black;
+}
+.button2{
+  background-color: red;
+  
+}
+div.box1 nav{
+  background-color: rgb(226, 61, 43);
+  
+}
+div.box1 nav span{
+  color: red;
+}

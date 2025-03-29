@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box{
+          border-radius: 10px;
+          background-color: burlywood;
+          height: 500px;
+          width: 500px;
+
+      }
+      div.box{
+          display: flex;
+
+      }
+      .ball{
+          margin-top:50% ;
+          border-radius: 50%;
+          bottom: 0;
+          background-color: red;
+          height: 40px;
+          width: 40px;
+          animation: forwards;
+          animation: ghk 2s cubic-bezier(1, 1.13, 0.12, 0.5) 2s,
+           ghj 2s cubic-bezier(1, 1.13, 0.12, 1.5) ;
+      }
+      @keyframes ghj{
+          from{
+
+          }
+          to{
+              transform: translateX(-10vx) translateY(30px);
+          }
+      }
+      @keyframes ghk{
+          from{
+
+          }
+          to{
+              transform: translateX(10vw) translateY(-30px) ;
+          }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="ball"></div>
+    </div>
+  </body>
+</html>

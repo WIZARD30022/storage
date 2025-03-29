@@ -1,0 +1,8 @@
+div.Footer{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    color: white;
+    background-color: black;
+    width: 100%;
+}
